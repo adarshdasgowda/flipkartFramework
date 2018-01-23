@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="79287" started-at="2018-01-13T12:31:06Z" finished-at="2018-01-13T12:32:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="79287" started-at="2018-01-13T12:31:06Z" finished-at="2018-01-13T12:32:25Z">
+      <class name="com.flipkart.TestCases.O_M_VerifyListings">
+        <test-method status="PASS" signature="configureBeforeClass()[pri:0, instance:com.flipkart.TestCases.O_M_VerifyListings@d80b78]" name="configureBeforeClass" is-config="true" duration-ms="23306" started-at="2018-01-13T18:01:06Z" finished-at="2018-01-13T18:01:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBeforeClass -->
+        <test-method status="PASS" signature="loginToFlipkartApplication()[pri:0, instance:com.flipkart.TestCases.O_M_VerifyListings@d80b78]" name="loginToFlipkartApplication" is-config="true" duration-ms="671" started-at="2018-01-13T18:01:29Z" finished-at="2018-01-13T18:01:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToFlipkartApplication -->
+        <test-method status="PASS" signature="verifyListings()[pri:0, instance:com.flipkart.TestCases.O_M_VerifyListings@d80b78]" name="verifyListings" duration-ms="45716" started-at="2018-01-13T18:01:30Z" finished-at="2018-01-13T18:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListings -->
+        <test-method status="PASS" signature="failedTCScreenshot(org.testng.ITestResult)[pri:0, instance:com.flipkart.TestCases.O_M_VerifyListings@d80b78]" name="failedTCScreenshot" is-config="true" duration-ms="1" started-at="2018-01-13T18:02:16Z" finished-at="2018-01-13T18:02:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyListings status=SUCCESS method=O_M_VerifyListings.verifyListings()[pri:0, instance:com.flipkart.TestCases.O_M_VerifyListings@d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTCScreenshot -->
+        <test-method status="PASS" signature="logoutFromFlipkartApplication()[pri:0, instance:com.flipkart.TestCases.O_M_VerifyListings@d80b78]" name="logoutFromFlipkartApplication" is-config="true" duration-ms="8191" started-at="2018-01-13T18:02:16Z" finished-at="2018-01-13T18:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromFlipkartApplication -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.flipkart.TestCases.O_M_VerifyListings@d80b78]" name="closeBrowser" is-config="true" duration-ms="1383" started-at="2018-01-13T18:02:24Z" finished-at="2018-01-13T18:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.flipkart.TestCases.O_M_VerifyListings -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
